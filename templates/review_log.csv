@@ -7,3 +7,4 @@ image,type,verdict,note
 000000007386,bbox_drift,confirmed."Box đỏ bắt đầu từ giữa xe chopper, bánh sau bên trái và trục sau nằm ngoài box, trong khi mask phủ trọn cả xe."
 000000013201,bbox_drift,confirmed,"Box đỏ lệch sang trái, mép phải của ván trượt (phần dưới giày) nằm ngoài box. Bbox xanh của mask khớp với ván."
 000000015338,missing_box,confirmed,"Xe buýt trắng nhìn rất rõ, chiếm phần lớn khung hình, mà không có box detection nào."
+000000001000",missing_box,confirmed,"Người phụ nữ mặc áo tối, đeo dây ba lô xanh, đứng ngay sau cậu bé đội mũ đỏ. Cô ấy nhìn rất rõ: thấy đầu, mặt, thân và hai chân. Segment rộng 6.140 px, nhưng không có box person nào ôm lấy cô. Các box xám đều thuộc về những người khác
