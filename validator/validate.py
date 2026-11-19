@@ -343,7 +343,7 @@ def main() -> int:
     ap.add_argument("--merge-single", type=float, default=0.85, help="không box nào chứa >= tỉ lệ này (nếu có: segment là của box đó)")
     ap.add_argument("--merge-total", type=float, default=0.85, help="hai box cộng lại phải chứa >= tỉ lệ này")
     ap.add_argument("--missing-frac", type=float, default=0.004, help="segment phải chiếm >= tỉ lệ này của ảnh")
-    ap.add_argument("--missing-cov", type=float, default=0.3)
+    ap.add_argument("--missing-cov", type=float, default=0.7)
     args = ap.parse_args()
 
     root = Path(args.delivery)

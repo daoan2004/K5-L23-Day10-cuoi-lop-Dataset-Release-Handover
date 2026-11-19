@@ -1,0 +1,10 @@
+image,type,verdict,note
+000000017714,instance_merge,confirmed,"Có 2 cái nĩa riêng: một nằm chéo phía trên, một nằm ngang phía dưới, bắt chéo qua con dao. Mask xanh tô cả hai nĩa như một segment. Box đỏ và box cam thì đúng mỗi box một nĩa."
+000000022969,instance_merge,confirmed,"2 con hươu tách rời: con bên trái cúi qua tường, con bên phải đứng quay lưng. Một segment phủ cả hai, nên bbox xanh rộng trùm cả hai con."
+000000018575,category_swap,confirmed,"vật to, nông và đựng cả bữa ăn thì không thể là cốc, nên chính panoptic ghi sai. Hai chén nhỏ không phải vật được tô, vì mask phủ cả cái đĩa lớn."
+000000021503,class_swap,confirmed,"Vật được tô là con chuột máy tính màu đen, sọc đỏ, nằm sau miếng bánh quy. Detection ghi knife là sai, panoptic ghi mouse là đúng."
+000000023023,bbox_drift,confirmed,"Box đỏ lệch sang phải và xuống dưới so với cái túi xách đen, gần nửa trái thân túi và quai nằm ngoài box."
+000000007386,bbox_drift,confirmed,"Box đỏ bắt đầu từ giữa xe chopper, bánh sau bên trái và trục sau nằm ngoài box, trong khi mask phủ trọn cả xe."
+000000013201,bbox_drift,confirmed,"Box đỏ lệch sang trái, mép phải của ván trượt (phần dưới giày) nằm ngoài box. Bbox xanh của mask khớp với ván."
+000000015338,missing_box,confirmed,"Xe buýt trắng nhìn rất rõ, chiếm phần lớn khung hình, mà không có box detection nào."
+000000001000,missing_box,confirmed,"Người phụ nữ mặc áo tối, đeo dây ba lô xanh, đứng ngay sau cậu bé đội mũ đỏ. Cô ấy nhìn rất rõ: thấy đầu, mặt, thân và hai chân. Segment rộng 6.140 px, nhưng không có box person nào ôm lấy cô. Các box xám đều thuộc về những người khác"

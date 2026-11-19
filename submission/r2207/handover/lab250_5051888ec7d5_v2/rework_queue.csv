@@ -1,0 +1,11 @@
+image,type,annotator,reviewer,action
+000000001000,missing_box,A01,Q01,thêm box cho vật bị thiếu
+000000005477,duplicate_box,A03,Q01,xoá box lặp
+000000007386,bbox_drift,A03,Q01,vẽ lại box khớp vật
+000000013004,invalid_class,A02,Q02,gán lại lớp hợp lệ (0-79)
+000000013201,bbox_drift,A02,Q02,vẽ lại box khớp vật
+000000015338,missing_box,A02,Q02,thêm box cho vật bị thiếu
+000000018380,bbox_out_of_bounds,A02,Q01,vẽ lại box trong khung ảnh
+000000021503,class_swap,A04,Q02,sửa lớp của box theo vật thật
+000000023023,bbox_drift,A04,Q02,vẽ lại box khớp vật
+000000025424,invalid_class,A01,Q02,gán lại lớp hợp lệ (0-79)
