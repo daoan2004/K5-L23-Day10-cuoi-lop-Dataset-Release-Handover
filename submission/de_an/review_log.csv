@@ -1,0 +1,11 @@
+image,type,verdict,note
+img_0177,missing_box,confirmed,"Con mèo nằm trên laptop, chỉ có box cat, không có box laptop (Triết xem)"
+img_0065,category_swap,confirmed,"Mặt con bò lông trắng nâu, detection cow đúng, panoptic ghi horse sai (Triết xem)"
+img_0190,category_swap,confirmed,Đuôi giống với đuôi của bò (Bình An xem)
+img_0108,category_swap,confirmed,Vật này giống laptop hơn là TV (Bình An xem)
+img_0019,class_swap,confirmed,"Em bé cầm điều khiển TV xám nhiều nút, không phải điện thoại; panoptic remote đúng (Thịnh xem)"
+img_0029,class_swap,confirmed, Vật này giống như ghế đơn (Thịnh xem)
+img_0056,bbox_drift,confirmed,Mask sườn xe tải kéo xuống dưới và sang phải ra ngoài box đỏ (Bắc xem)
+img_0171,instance_merge,confirmed,box đỏ ôm đúng cốc mờ; ô tô màu segment cho thấy cốc mờ và cốc nước cam phía sau là cùng một segment cup (Bắc xem)
+img_0015,bbox_drift,confirmed,"Box đỏ bỏ mất cánh tay trái của người phụ nữ áo trắng, bên phải box thừa khoảng trống (Thái An xem)"
+img_0041,missing_box,confirmed,Tay cầm con dao nhìn rõ nhưng không có box knife nào (Thái An xem)

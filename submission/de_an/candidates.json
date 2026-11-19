@@ -1,0 +1,207 @@
+{
+ "candidates": [
+  {
+   "image": "img_0177",
+   "type": "missing_box",
+   "score": 2.948,
+   "cls": "laptop",
+   "seg_id": 14975133,
+   "seg_bbox": [
+    0,
+    20,
+    429,
+    370
+   ],
+   "area_px": 55284,
+   "best_same_class_cov": 0.0
+  },
+  {
+   "image": "img_0065",
+   "type": "class_swap|category_swap",
+   "score": 0.998,
+   "det_class": "cow",
+   "pan_class": "horse",
+   "seg_id": 8226673,
+   "box": [
+    1.3,
+    103.2,
+    481.6,
+    631.7
+   ],
+   "seg_bbox": [
+    1,
+    103,
+    482,
+    632
+   ],
+   "iou": 0.998,
+   "hint": "mở ảnh: vật thật là det_class -> category_swap; là pan_class -> class_swap"
+  },
+  {
+   "image": "img_0190",
+   "type": "class_swap|category_swap",
+   "score": 0.998,
+   "det_class": "cow",
+   "pan_class": "horse",
+   "seg_id": 10396941,
+   "box": [
+    0.0,
+    16.1,
+    89.1,
+    421.9
+   ],
+   "seg_bbox": [
+    0,
+    16,
+    89,
+    422
+   ],
+   "iou": 0.998,
+   "hint": "mở ảnh: vật thật là det_class -> category_swap; là pan_class -> class_swap"
+  },
+  {
+   "image": "img_0108",
+   "type": "class_swap|category_swap",
+   "score": 0.997,
+   "det_class": "laptop",
+   "pan_class": "tv",
+   "seg_id": 13393080,
+   "box": [
+    0.0,
+    100.7,
+    493.6,
+    355.8
+   ],
+   "seg_bbox": [
+    0,
+    101,
+    494,
+    356
+   ],
+   "iou": 0.997,
+   "hint": "mở ảnh: vật thật là det_class -> category_swap; là pan_class -> class_swap"
+  },
+  {
+   "image": "img_0019",
+   "type": "class_swap|category_swap",
+   "score": 0.992,
+   "det_class": "cell phone",
+   "pan_class": "remote",
+   "seg_id": 5848192,
+   "box": [
+    167.7,
+    73.9,
+    280.3,
+    235.4
+   ],
+   "seg_bbox": [
+    168,
+    74,
+    280,
+    235
+   ],
+   "iou": 0.992,
+   "hint": "mở ảnh: vật thật là det_class -> category_swap; là pan_class -> class_swap"
+  },
+  {
+   "image": "img_0029",
+   "type": "class_swap|category_swap",
+   "score": 0.966,
+   "det_class": "couch",
+   "pan_class": "chair",
+   "seg_id": 5028415,
+   "box": [
+    443.2,
+    0.4,
+    499.4,
+    66.5
+   ],
+   "seg_bbox": [
+    444,
+    0,
+    499,
+    66
+   ],
+   "iou": 0.966,
+   "hint": "mở ảnh: vật thật là det_class -> category_swap; là pan_class -> class_swap"
+  },
+  {
+   "image": "img_0056",
+   "type": "bbox_drift",
+   "score": 0.2,
+   "cls": "truck",
+   "seg_id": 9100039,
+   "box": [
+    0.0,
+    115.3,
+    42.8,
+    261.4
+   ],
+   "seg_bbox": [
+    0,
+    116,
+    49,
+    284
+   ],
+   "iou": 0.753,
+   "pixel_cov": 0.8
+  },
+  {
+   "image": "img_0171",
+   "type": "bbox_drift",
+   "score": 0.102,
+   "cls": "cup",
+   "seg_id": 4353265,
+   "box": [
+    282.2,
+    69.6,
+    375.0,
+    235.1
+   ],
+   "seg_bbox": [
+    282,
+    0,
+    375,
+    235
+   ],
+   "iou": 0.702,
+   "pixel_cov": 0.898
+  },
+  {
+   "image": "img_0015",
+   "type": "bbox_drift",
+   "score": 0.082,
+   "cls": "person",
+   "seg_id": 15866332,
+   "box": [
+    107.1,
+    212.7,
+    301.4,
+    478.5
+   ],
+   "seg_bbox": [
+    37,
+    213,
+    301,
+    478
+   ],
+   "iou": 0.731,
+   "pixel_cov": 0.918
+  },
+  {
+   "image": "img_0041",
+   "type": "missing_box",
+   "score": 0.059,
+   "cls": "knife",
+   "seg_id": 7853798,
+   "seg_bbox": [
+    273,
+    187,
+    339,
+    226
+   ],
+   "area_px": 989,
+   "best_same_class_cov": 0.0
+  }
+ ]
+}
