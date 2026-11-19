@@ -1,0 +1,199 @@
+{
+ "candidates": [
+  {
+   "image": "000000017714",
+   "type": "instance_merge",
+   "score": 1.333,
+   "cls": "fork",
+   "seg_id": 2303267,
+   "seg_bbox": [
+    293,
+    331,
+    520,
+    452
+   ],
+   "box": [
+    368.0,
+    330.4,
+    520.4,
+    444.6
+   ],
+   "other_box": [
+    293.2,
+    408.2,
+    483.3,
+    452.3
+   ],
+   "pixel_cov": [
+    0.726,
+    0.607
+   ]
+  },
+  {
+   "image": "000000022969",
+   "type": "instance_merge",
+   "score": 1.0,
+   "cls": "giraffe",
+   "seg_id": 7314606,
+   "seg_bbox": [
+    65,
+    75,
+    372,
+    286
+   ],
+   "box": [
+    318.5,
+    75.0,
+    372.5,
+    267.1
+   ],
+   "other_box": [
+    65.3,
+    186.0,
+    177.2,
+    286.0
+   ],
+   "pixel_cov": [
+    0.573,
+    0.427
+   ]
+  },
+  {
+   "image": "000000018575",
+   "type": "class_swap|category_swap",
+   "score": 0.998,
+   "det_class": "bowl",
+   "pan_class": "cup",
+   "seg_id": 5202285,
+   "box": [
+    317.6,
+    162.9,
+    637.1,
+    470.2
+   ],
+   "seg_bbox": [
+    318,
+    163,
+    637,
+    470
+   ],
+   "iou": 0.998,
+   "hint": "mở ảnh: vật thật là det_class -> category_swap; là pan_class -> class_swap"
+  },
+  {
+   "image": "000000021503",
+   "type": "class_swap|category_swap",
+   "score": 0.991,
+   "det_class": "knife",
+   "pan_class": "mouse",
+   "seg_id": 789783,
+   "box": [
+    436.8,
+    48.1,
+    640.0,
+    150.8
+   ],
+   "seg_bbox": [
+    438,
+    48,
+    640,
+    151
+   ],
+   "iou": 0.991,
+   "hint": "mở ảnh: vật thật là det_class -> category_swap; là pan_class -> class_swap"
+  },
+  {
+   "image": "000000023023",
+   "type": "bbox_drift",
+   "score": 0.246,
+   "cls": "handbag",
+   "seg_id": 5789271,
+   "box": [
+    443.8,
+    249.7,
+    612.0,
+    430.3
+   ],
+   "seg_bbox": [
+    407,
+    232,
+    575,
+    413
+   ],
+   "iou": 0.544,
+   "pixel_cov": 0.754
+  },
+  {
+   "image": "000000007386",
+   "type": "bbox_drift",
+   "score": 0.215,
+   "cls": "motorcycle",
+   "seg_id": 6252397,
+   "box": [
+    148.6,
+    81.4,
+    600.0,
+    400.0
+   ],
+   "seg_bbox": [
+    51,
+    13,
+    600,
+    400
+   ],
+   "iou": 0.677,
+   "pixel_cov": 0.785
+  },
+  {
+   "image": "000000001000",
+   "type": "missing_box",
+   "score": 0.2,
+   "cls": "person",
+   "seg_id": 5067108,
+   "seg_bbox": [
+    183,
+    121,
+    279,
+    394
+   ],
+   "area_px": 6140,
+   "best_same_class_cov": 0.374
+  },
+  {
+   "image": "000000013201",
+   "type": "bbox_drift",
+   "score": 0.167,
+   "cls": "skateboard",
+   "seg_id": 6319474,
+   "box": [
+    91.5,
+    427.1,
+    159.5,
+    523.2
+   ],
+   "seg_bbox": [
+    108,
+    427,
+    176,
+    523
+   ],
+   "iou": 0.608,
+   "pixel_cov": 0.833
+  },
+  {
+   "image": "000000015338",
+   "type": "missing_box",
+   "score": 0.143,
+   "cls": "bus",
+   "seg_id": 5919050,
+   "seg_bbox": [
+    265,
+    201,
+    349,
+    260
+   ],
+   "area_px": 3881,
+   "best_same_class_cov": 0.0
+  }
+ ]
+}
